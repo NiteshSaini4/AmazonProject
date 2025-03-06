@@ -25,7 +25,7 @@ public class TestCase extends BaseClass
 		//lc1.user_logOut();
 	}
 	@DataProvider(name="DataPro")    
-	public String[][]getData() throws Exception
+	public String[][]getDataPro() throws Exception
 	{
 		String filename="C:\\Users\\dell\\Desktop\\framedata.xlsx";
 		int row=DataDrivernTesting.getRow(filename, "Sheet1");
